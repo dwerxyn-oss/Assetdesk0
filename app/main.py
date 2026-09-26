@@ -106,3 +106,6 @@ def main() -> None:
     settings = get_settings()
     settings.assert_runtime()
     asyncio.run(run(settings))
+
+if __name__ == "__main__":
+    main()
